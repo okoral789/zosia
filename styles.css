@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/3d-rendering-flowers_23-2150981202.jpg?t=st=1718735070~exp=1718738670~hmac=9370008053e09c230352258eb80a92bf3425edec7a66f6c8734e30cffda7088e&w=900');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.01); /* Zmieniono przezroczystość tła */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+    color: #ff69b4;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+
+.dancing-bear img {
+    width: 250px;
+    height: auto;
+}
